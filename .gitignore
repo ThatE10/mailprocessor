@@ -1,0 +1,95 @@
+/.env.example
+# IDE and editor directories and files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*.bak
+
+# Build directories
+bin/
+obj/
+build/
+out/
+dist/
+target/
+
+# Dependency directories
+node_modules/
+vendor/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.idea/
+
+# C / C++ / Objective-C
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Go
+*.exe
+*.test
+*.out
+
+# Rust
+/target/
+
+# JetBrains
+.idea/
+
+# Visual Studio
+.vs/
+.vs2019/
+.vs2017/
+
+# Xcode
+*.xcworkspace/
+*.xcuserdata/
+*.xcodeproj/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# NetBeans
+nbproject/
+
+# Intellij IDEA
+.idea/
+
+# Logs
+*.log
+*.log.*
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
