@@ -6,4 +6,4 @@ The goal of this project was to build a system to process all my 46k emails and 
 - Web UI to showoff statistics about senders and total # of spam
 - Spam detector using microsoft/deberta-v3-base
 
-Project completed as July 17th, 2025
+Built using Claude CLI, Project completed as July 17th, 2025
