@@ -5,7 +5,9 @@ import unittest
 import json
 import os
 import tempfile
-from ..utils.stats_manager import StatsManager
+
+from mail_reader.utils.stats_manager import StatsManager
+
 
 class TestStatsManager(unittest.TestCase):
     def setUp(self):

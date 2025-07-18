@@ -3,7 +3,9 @@ Unit tests for EmailParser
 """
 import unittest
 import email
-from ..utils.email_parser import EmailParser
+
+from mail_reader.utils.email_parser import EmailParser
+
 
 class TestEmailParser(unittest.TestCase):
     def setUp(self):
@@ -30,6 +32,7 @@ class TestEmailParser(unittest.TestCase):
 
         for header, expected in test_cases:
             msg = email.message_from_string(f"{header}\nSubject: Test")
+            print(header, expected)
             self.assertEqual(self.parser.get_sender_email(msg), expected)
 
     def test_decode_subject(self):
@@ -54,6 +57,7 @@ class TestEmailParser(unittest.TestCase):
         ]
 
         for header, expected in test_cases:
+            print(header, expected)
             msg = email.message_from_string(f"{header}\nFrom: test@example.com")
             self.assertEqual(self.parser.decode_subject(msg.get('Subject', '')), expected)
 

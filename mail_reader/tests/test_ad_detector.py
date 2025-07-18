@@ -2,7 +2,9 @@
 Unit tests for AdvertisementDetector
 """
 import unittest
-from ..utils.ad_detector import AdvertisementDetector
+
+from mail_reader.utils.ad_detector import AdvertisementDetector
+
 
 class TestAdvertisementDetector(unittest.TestCase):
     def setUp(self):

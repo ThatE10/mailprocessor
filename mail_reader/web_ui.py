@@ -15,7 +15,7 @@ import pathlib
 
 def save_credentials(host, port, username, password, spam_folder):
     """Save credentials to .env file"""
-    with open('.env', 'w') as f:
+    with open('../.env', 'w') as f:
         f.write(f'EMAIL_HOST={host}\n')
         f.write(f'EMAIL_PORT={port}\n')
         f.write(f'EMAIL_USER={username}\n')

@@ -1,4 +1,4 @@
-poplib3
+poplib
 email==4.0.2
 transformers
 torch==2.1.2

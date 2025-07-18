@@ -7,7 +7,9 @@ import pandas as pd
 import os
 import tempfile
 from datetime import datetime
-from ..core.email_processor import EmailProcessor
+
+from mail_reader.core.email_processor import EmailProcessor
+
 
 class TestEmailProcessor(unittest.TestCase):
     def setUp(self):
